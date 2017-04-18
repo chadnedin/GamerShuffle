@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">GamerShuffle</string>
+
+  <string name="genre_select">Genre: </string>
+  <string-array name="genres_array">
+    <item>Shooter</item>
+    <item>Role-Playing Game</item>
+    <item>Sports</item>
+    <item>Fighter</item>
+    <item>Action</item>
+    <item>Adventure</item>
+    <item>Simulation</item>
+    <item>Platformer</item>
+    <item>Puzzle</item>
+    <item>Massive Online Multiplayer</item>
+    <item>Strategy</item>
+    
+  </string-array>
+
+  <string name="platform_select">Platform: </string>
+  <string-array name="platforms_array">
+    <item>PC</item>
+    <item>Playstation 4</item>
+    <item>Xbox One</item>
+    <item>Nintendo Switch</item>
+    
+
+
+  </string-array>
+
+  <string name="raiting_select">Raiting: </string>
+  <string-array name="raitings_array">
+    <item>100%</item>
+    <item>> 75%</item>
+    <item>> 50%</item>
+    <item>less than 50%</item>
+  
+
+  </string-array>
+</resources>
