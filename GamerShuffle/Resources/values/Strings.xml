@@ -2,6 +2,9 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">GamerShuffle</string>
+  <string name="game_name">Game Name</string>
+  <string name="platform_name">Platform</string>
+  <string name="genre_name">Genre Types</string>
 
   <string name="genre_select">Genre: </string>
   <string-array name="genres_array">
@@ -21,7 +24,7 @@
 
   <string name="platform_select">Platform: </string>
   <string-array name="platforms_array">
-    <item>PC</item>
+    <item>Platform Selection</item>
     <item>Playstation 4</item>
     <item>Xbox One</item>
     <item>Nintendo Switch</item>

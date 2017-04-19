@@ -12,22 +12,25 @@ using Android.Widget;
 
 namespace GamerShuffle
 {
-   public class Games
+    public class Games
     {
 
         public int id { get; set; }
         public string name { get; set; }
-        public string image { get; set; }
+        public string Image { get; set; }
 
+        public int genres_id { get; set; }
         public string games { get; set; }
-        public string genres { get; set; }
+        public string genres_name { get; set; }
 
-        public string platforms { get; set; }
-        public string original_release_date { get; set; }
+        public string platform_name { get; set; }
 
-        public string original_game_rating { get; set; }
+        public string platform { get; set; }
+        public string release_dates { get; set; }
 
-        public string description { get; set; }
+        public double? popularity { get; set; }
+
+        public string summary { get; set; }
 
     }
 }

@@ -16,60 +16,52 @@
         p1:layout_marginTop="25dp"
         p1:layout_marginBottom="25dp" />
     <TextView
-        p1:text="Search for a Game"
+        p1:text="Search For a Game By Selecting Your Platform"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
         p1:id="@+id/textView1"
         p1:textSize="14dp"
         p1:textColor="#CC4B09"
         p1:gravity="center" />
-    <TextView
-        p1:layout_width="fill_parent"
-        p1:layout_height="wrap_content"
-        p1:layout_marginTop="10dp"
-        p1:text="@string/genre_select"
-        p1:textColor="#000" />
-    <Spinner
-        p1:layout_width="fill_parent"
-        p1:layout_height="wrap_content"
-        p1:prompt="@string/genre_select"
-        p1:id="@+id/spinner"
-        p1:background="#FFBAAA" />
-    <TextView
-        p1:layout_width="fill_parent"
-        p1:layout_height="wrap_content"
-        p1:layout_marginTop="10dp"
-        p1:text="@string/platform_select"
-        p1:textColor="#000" />
-    <Spinner
-        p1:layout_width="fill_parent"
-        p1:layout_height="wrap_content"
-        p1:prompt="@string/platform_select"
-        p1:id="@+id/spinner2"
-        p1:background="#FFBAAA" />
-    <TextView
-        p1:layout_width="fill_parent"
-        p1:layout_height="wrap_content"
-        p1:layout_marginTop="10dp"
-        p1:text="@string/raiting_select"
-        p1:textColor="#000" />
-    <Spinner
-        p1:layout_width="fill_parent"
-        p1:layout_height="wrap_content"
-        p1:prompt="@string/raiting_select"
-        p1:id="@+id/spinner3"
-        p1:background="#FFBAAA" />
-    <Button
-        p1:text="Find Game"
-        p1:layout_width="match_parent"
-        p1:layout_height="wrap_content"
-        p1:id="@+id/btnEnter"
-        p1:gravity="center"
-        p1:layout_marginLeft="25dp"
-        p1:layout_marginRight="25dp"
-        p1:background="#127C22"
-        p1:textColor="#DBFCFF"
-        p1:textSize="14dp"
-        p1:layout_marginTop="25dp"
-        p1:layout_marginBottom="25dp" />
+  <Button
+     p1:text="PlayStation 4"
+     p1:layout_width="match_parent"
+     p1:layout_height="wrap_content"
+     p1:id="@+id/btnPs4"
+     p1:gravity="center"
+     p1:layout_marginLeft="25dp"
+     p1:layout_marginRight="25dp"
+     p1:background="#127C22"
+     p1:textColor="#DBFCFF"
+     p1:textSize="14dp"
+     p1:layout_marginTop="25dp"
+     p1:layout_marginBottom="25dp" />
+
+  <Button
+       p1:text="Xbox One"
+       p1:layout_width="match_parent"
+       p1:layout_height="wrap_content"
+       p1:id="@+id/btnXbox"
+       p1:gravity="center"
+       p1:layout_marginLeft="25dp"
+       p1:layout_marginRight="25dp"
+       p1:background="#127C22"
+       p1:textColor="#DBFCFF"
+       p1:textSize="14dp"
+       p1:layout_marginTop="25dp"
+       p1:layout_marginBottom="25dp" />
+
+  <Button
+       p1:text="Nintendo"
+       p1:layout_width="match_parent"
+       p1:layout_height="wrap_content"
+       p1:id="@+id/btnNintendo"
+       p1:gravity="center"
+       p1:layout_marginLeft="25dp"
+       p1:layout_marginRight="25dp"
+       p1:background="#127C22"
+       p1:textColor="#DBFCFF"
+       p1:textSize="14dp"
+       p1:layout_marginTop="25dp"
+       p1:layout_marginBottom="25dp" />
 </LinearLayout>

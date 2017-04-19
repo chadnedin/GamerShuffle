@@ -15,14 +15,24 @@ using System.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
+using Android.Net;
 
 namespace GamerShuffle
 {
    public class GameService
     {
 
-        private const string GET_GAMES = "https://igdbcom-internet-game-database-v1.p.mashape.com/games/?fields=id,name,genres,summary,release_dates.platform&filter[release_dates.platform][eq]=3&order=popularity";
+        private static string GET_GAMES = "https://igdbcom-internet-game-database-v1.p.mashape.com/games/?fields=id,name,genres,summary,release_dates.platform&filter[release_dates.platform][eq]=";
+        private static string ADD_PLATFORM;
+        private static string ADD_LAST_PART = "&order=popularity";
 
+        private static string GAMES_SHOW = GET_GAMES + ADD_PLATFORM + ADD_LAST_PART;
+
+
+        public static void passThePlatform(string platform)
+        {
+            ADD_PLATFORM = platform;
+        }
         public async Task<List<Games>> GetGameListAsync()
         {
             HttpClient httpClient = new HttpClient();
@@ -60,6 +70,13 @@ namespace GamerShuffle
                 return null;
             }
 
+        }
+
+        public bool isConnected(Context activity)
+        {
+            var connectivityManager = (ConnectivityManager)activity.GetSystemService(Context.ConnectivityService);
+            var activeConnection = connectivityManager.ActiveNetworkInfo;
+            return (null != activeConnection && activeConnection.IsConnected);
         }
 
 

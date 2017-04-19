@@ -11,12 +11,30 @@ using Android.Views;
 using Android.Widget;
 using Android.Graphics;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+
 
 namespace GamerShuffle
 {
     [Activity(Label = "searchActivity")]
     public class searchActivity : Activity
     {
+        private static string PART1 =
+                "https-internet-game-database-v1.p.mashape.com/games/?fields=name,genres,summary,release_dates.platform&filter[release_dates.platform][eq]={0}&order=popularity";
+
+        public string platformValue;
+        public string btnEnter = "48";
+        public string btnXbox = "49";
+        public string btnNintendo = "130";
+
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            PART1 = string.Format(PART1, (sender as Button).Text);
+            var intent = new Intent(this, typeof(GameListActivity));
+            intent.PutExtra("URL", PART1);
+        }
+
+           
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -24,82 +42,74 @@ namespace GamerShuffle
             // Create your application here
 
             var txtView = FindViewById<TextView>(Resource.Id.textView1);
-            var btnText = FindViewById<Button>(Resource.Id.btnEnter);
-            var spinnertxt = FindViewById<Spinner>(Resource.Id.spinner);
-            var spinnertxt2 = FindViewById<Spinner>(Resource.Id.spinner2);
-            var spinnertxt3 = FindViewById<Spinner>(Resource.Id.spinner3);
+            var btnps4 = FindViewById<Button>(Resource.Id.btnPs4);
+            var btnxbox = FindViewById<Button>(Resource.Id.btnXbox);
+            var btnnintendo = FindViewById<Button>(Resource.Id.btnNintendo);
+            //var spinnertxt = FindViewById<Spinner>(Resource.Id.spinner);
+
             Typeface tf = Typeface.CreateFromAsset(Assets, "VT323-Regular.ttf");
             txtView.SetTypeface(tf, TypefaceStyle.Normal);
-            btnText.SetTypeface(tf, TypefaceStyle.Bold);
- //           spinnertxt.SetTypeface(tf, TypefaceStyle.Normal);
+            btnps4.SetTypeface(tf, TypefaceStyle.Bold);
+            btnxbox.SetTypeface(tf, TypefaceStyle.Bold);
+            btnnintendo.SetTypeface(tf, TypefaceStyle.Bold);
+            Console.Out.WriteLine("Made it passed the declare");
 
-
-
- //           //Searching api
- //           btnText.Click += async (sender, e) =>
- //           {
- //               Task<HttpResponse<MyClass>> response = Unirest.get("https://igdbcom-internet-game-database-v1.p.mashape.com/genres/?fields=*&limit=40")
- //.header("X-Mashape-Key", "SKeRyjqczNmshxjnmBCyjgTcCNx9p1DQpALjsnREie6fUXs6y4")
- //.asJson();
- //           }
-
-                //genre spinner
-                Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
-
-            spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
-            var adapter = ArrayAdapter.CreateFromResource(
-                    this, Resource.Array.genres_array, Android.Resource.Layout.SimpleSpinnerItem);
-
-            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            spinner.Adapter = adapter;
-
-            // raiting spinner
-            Spinner spinner3 = FindViewById<Spinner>(Resource.Id.spinner3);
-
-            spinner3.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner3_ItemSelected);
-            var adapter3 = ArrayAdapter.CreateFromResource(
-                    this, Resource.Array.raitings_array, Android.Resource.Layout.SimpleSpinnerItem);
-
-            adapter3.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            spinner3.Adapter = adapter3;
-
-            // platform spinner
-            Spinner spinner2 = FindViewById<Spinner>(Resource.Id.spinner2);
-
-            spinner2.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner2_ItemSelected);
-            var adapter2 = ArrayAdapter.CreateFromResource(
-                    this, Resource.Array.platforms_array, Android.Resource.Layout.SimpleSpinnerItem);
-
-            adapter2.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            spinner2.Adapter = adapter2;
-
+            //spinnertxt.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
+            //Console.Out.WriteLine("got herreee 1212");
+            //var adapter = ArrayAdapter.CreateFromResource(
+            //        this, Resource.Array.platforms_array, Android.Resource.Layout.SimpleSpinnerItem);
+            //Console.Out.WriteLine("got to this point 1212123");
+            //adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            //spinnertxt.Adapter = adapter;
+           
         }
 
-        //raiting spinner select
-        private void spinner3_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
-        {
-            Spinner spinner3 = (Spinner)sender;
+        //private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        //{
+        //    Spinner spinnerVal = (Spinner)sender;
+        //    Console.Out.WriteLine("GOT TO THE TOASTY MSG");
+        //    string toast = string.Format("The selected platform is {0}", spinnerVal.GetItemAtPosition(e.Position));
+        //    Toast.MakeText(this, toast, ToastLength.Long).Show();
+        //    switch (e.Position)
+        //    {
+        //        case 0:
+                    
+        //            Console.Out.WriteLine("Platform Selection");
+        //            break;
+        //        case 1:
+        //            platformValue = "48";
+        //            Console.Out.WriteLine("playstation");
+        //            break;
+        //        case 2:
+        //            platformValue = "48";
+        //            Console.Out.WriteLine("xbox");
+        //            break;
 
-            string toast = string.Format("The selected raiting is {0}", spinner3.GetItemAtPosition(e.Position));
-            Toast.MakeText(this, toast, ToastLength.Long).Show();
-        }
+        //        case 3:
+        //            platformValue = "48";
+        //            Console.Out.WriteLine("nintendo");
+        //            break;
+        //    }
 
-        //platform spinner select
-        private void spinner2_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
-        {
-            Spinner spinner2 = (Spinner)sender;
+        //    var GameListActivity = new Intent(this, typeof(GameListActivity));
+        //    GameListActivity.PutExtra("platformValue", "Data from searchActivity");
+        //    StartActivity(GameListActivity);
 
-            string toast = string.Format("The selected platform is {0}", spinner2.GetItemAtPosition(e.Position));
-            Toast.MakeText(this, toast, ToastLength.Long).Show();
-        }
+        //}
 
-        //genre spinner select
-        private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
-        {
-            Spinner spinner = (Spinner)sender;
 
-            string toast = string.Format("The selected genre is {0}", spinner.GetItemAtPosition(e.Position));
-            Toast.MakeText(this, toast, ToastLength.Long).Show();
-        }
+        //protected void searchClick(object sender, EventArgs e)
+        //{
+        //    Games game = new Games();
+        //    platformValue = game.platform;
+        //    GameService.passThePlatform(platformValue);
+        //    Intent gameDetailIntent = new Intent(this, typeof(GameListActivity));
+        //    string gameJson = JsonConvert.SerializeObject(game);
+        //    gameDetailIntent.PutExtra("game", gameJson);
+        //    StartActivity(gameDetailIntent);
+        //    StartActivity(typeof(GameListActivity));
+
+
+        //}
     }
 }
