@@ -1,67 +1,69 @@
-("gamesNintendoSwitch"[
-    {
-        "id": 1,
-        "name": "The Legend of Zelda: Breath of the Wild",
-        "summary": "Step into a world of discovery, exploration and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across fields, through forests and to mountain peaks as you discover what has become of the ruined kingdom of Hyrule in this stunning open-air adventure.",
-        "genres": "Adventure",
-        "platform": "Nintendo Switch"
-    },
-    {
-        "id": 2,
-        "name": "Just Dance 2017",
-        "genres": "Music",
-        "platform": "Nintendo Switch"
-    },
-    {
-        "id": 3,
-        "name": "Super Mario Odyssey",
-        "genres": "Platform",
-         "platform": "Nintendo Switch"
-    },
-    {
-        "id": 4,
-        "name": "Skylanders: Imaginators",
-        "genres": "Platform",
-         "platform": "Nintendo Switch"
-    },
-    {
-        "id": 5,
-        "name": "Syberia 3",
-        "summary": "Syberia 3 takes you inside an enchanting, mysterious universe full of life for you to explore in 3D. Plunged into the heart of a world inhabited by a cast of interesting characters, you'll discover and experience a fabulous tale as imagined by Benoit Sokal.",
-        "genres": "Point-and-Click",
-        "platform": "Nintendo Switch"
-    },
-    {
-        "id": 6,
-        "name": "The Elder Scrolls V: Skyrim Special Edition",
-        "summary": "Skyrim special edition is a remaster of the classic from 2011. Now with upgraded visuals along with Xbox One and PS4 Releases. \r\n\r\nSkyrim reimagines and revolutionises the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.\r\n\r\nLIVE ANOTHER LIFE, IN ANOTHER WORLD \r\nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realised like never before.\r\n\r\nALL NEW GRAPHICS AND GAMEPLAY ENGINE \r\nSkyrim’s new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons.\r\n\r\nYOU ARE WHAT YOU PLAY \r\nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.\r\n\r\nDRAGON RETURN \r\nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.",
-        "genres": "Role-playing (RPG)",
-       "platform": "Nintendo Switch"
-    },
-    {
-        "id": 7,
-        "name": "Minecraft",
-        "summary": "Minecraft is an open world game that has no specific goals for the player to accomplish, allowing players a large amount of freedom in choosing how to play the game however, there is an achievement system. The gameplay by default is first person, but players have the option to play in third person mode. The core gameplay revolves around breaking and placing blocks. The game world is essentially composed of rough 3D objects—mainly cubes—that are arranged in a fixed grid pattern and represent different materials, such as dirt, stone, various ores, water, and tree trunks. While players can move freely across the world, objects and items can only be placed at fixed locations relative to the grid. Players can gather these material blocks and place them elsewhere, thus allowing for various constructions.",
-        "genres": "Adventure",
-		"platform": "Nintendo Switch"
-    },
-    {
-        "id": 8,
-        "name": "Super Bomberman R",
-        "summary": "\"Since its release in 1985, Bomberman has been a familiar party-battle game for many years. Now, Bomberman is coming back as \"SUPER BOMBERMAN R\" to Nintento Switch. \n \nIn SUPER BOMBERMAN R, the simple rule remains the same: operate the main character (Bomberman), place bombs, and battle with enemies and rivals, but it's coming back in a modern style with 3D stages and photo-real graphics. You can enjoy battles with rivals from all over the world. \n \nThere is \"Battle\" mode for maximum of 8 players, and single play \"Story\" mode (cooperative play for 2 players is possible as well) where players clear each stage one by one, with a big volume of 50 stages. Also, there is a new rule where the condition to clear the stage is not just by wiping out all the enemies. This simple but strategic game with new rules and 3D stages is fun for everyone, from children to adults.\"",
-        "genres": "Arcade",
-		"platform": "Nintendo Switch"
-    },
-    {
-        "id": 9,
-        "name": "Yooka-Laylee",
-        "summary": "Yooka-Laylee is an all-new 3D platformer from the creative talent behind the Banjo-Kazooie and Donkey Kong Country games. We’ve come together to form Playtonic Games and create a spiritual successor to our most cherished work from the past!  \n  \nOur new heroes, Yooka (the green one) and Laylee (the wisecracking bat with big nose) were conceptualised from the ground up for stellar platforming gameplay, created by the same character artist behind the rebooted Donkey Kong family and legendary N64 heroes Banjo and Kazooie.  \n  \nUsing an arsenal of special moves like Yooka’s tongue grapple and Laylee’s tactical sonar blast, players will explore – and expand – gorgeous 3D worlds drawn up by esteemed environment artist Steven Hurst (Banjo-Kazooie series, Viva Pinata) and discover the plethora of delicious collectibles hidden within.",
-        "genres": "Platform,
-		"platform": "Nintendo Switch"
-    },
-    {
-        "id": 10,
-        "name": "Mario Kart 8 Deluxe",
-        "genres": "Racing",
-		"platform": "Nintendo Switch"
-]}
+{
+	"gamesNintendoSwitch": [{
+			"id": 1,
+			"name": "The Legend of Zelda: Breath of the Wild",
+			"summary": "Step into a world of discovery, exploration and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across fields, through forests and to mountain peaks as you discover what has become of the ruined kingdom of Hyrule in this stunning open-air adventure.",
+			"genres": "Adventure",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 2,
+			"name": "Just Dance 2017",
+			"genres": "Music",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 3,
+			"name": "Super Mario Odyssey",
+			"genres": "Platform",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 4,
+			"name": "Skylanders: Imaginators",
+			"genres": "Platform",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 5,
+			"name": "Syberia 3",
+			"summary": "Syberia 3 takes you inside an enchanting, mysterious universe full of life for you to explore in 3D. Plunged into the heart of a world inhabited by a cast of interesting characters, you'll discover and experience a fabulous tale as imagined by Benoit Sokal.",
+			"genres": "Point-and-Click",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 6,
+			"name": "The Elder Scrolls V: Skyrim Special Edition",
+			"summary": "Skyrim special edition is a remaster of the classic from 2011. Now with upgraded visuals along with Xbox One and PS4 Releases. \r\n\r\nSkyrim reimagines and revolutionises the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.\r\n\r\nLIVE ANOTHER LIFE, IN ANOTHER WORLD \r\nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realised like never before.\r\n\r\nALL NEW GRAPHICS AND GAMEPLAY ENGINE \r\nSkyrim’s new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons.\r\n\r\nYOU ARE WHAT YOU PLAY \r\nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.\r\n\r\nDRAGON RETURN \r\nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.",
+			"genres": "Role-playing (RPG)",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 7,
+			"name": "Minecraft",
+			"summary": "Minecraft is an open world game that has no specific goals for the player to accomplish, allowing players a large amount of freedom in choosing how to play the game however, there is an achievement system. The gameplay by default is first person, but players have the option to play in third person mode. The core gameplay revolves around breaking and placing blocks. The game world is essentially composed of rough 3D objects—mainly cubes—that are arranged in a fixed grid pattern and represent different materials, such as dirt, stone, various ores, water, and tree trunks. While players can move freely across the world, objects and items can only be placed at fixed locations relative to the grid. Players can gather these material blocks and place them elsewhere, thus allowing for various constructions.",
+			"genres": "Adventure",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 8,
+			"name": "Super Bomberman R",
+			"summary": "\"Since its release in 1985, Bomberman has been a familiar party-battle game for many years. Now, Bomberman is coming back as \"SUPER BOMBERMAN R\" to Nintento Switch. \n \nIn SUPER BOMBERMAN R, the simple rule remains the same: operate the main character (Bomberman), place bombs, and battle with enemies and rivals, but it's coming back in a modern style with 3D stages and photo-real graphics. You can enjoy battles with rivals from all over the world. \n \nThere is \"Battle\" mode for maximum of 8 players, and single play \"Story\" mode (cooperative play for 2 players is possible as well) where players clear each stage one by one, with a big volume of 50 stages. Also, there is a new rule where the condition to clear the stage is not just by wiping out all the enemies. This simple but strategic game with new rules and 3D stages is fun for everyone, from children to adults.\"",
+			"genres": "Arcade",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 9,
+			"name": "Yooka-Laylee",
+			"summary": "Yooka-Laylee is an all-new 3D platformer from the creative talent behind the Banjo-Kazooie and Donkey Kong Country games. We’ve come together to form Playtonic Games and create a spiritual successor to our most cherished work from the past!  \n  \nOur new heroes, Yooka (the green one) and Laylee (the wisecracking bat with big nose) were conceptualised from the ground up for stellar platforming gameplay, created by the same character artist behind the rebooted Donkey Kong family and legendary N64 heroes Banjo and Kazooie.  \n  \nUsing an arsenal of special moves like Yooka’s tongue grapple and Laylee’s tactical sonar blast, players will explore – and expand – gorgeous 3D worlds drawn up by esteemed environment artist Steven Hurst (Banjo-Kazooie series, Viva Pinata) and discover the plethora of delicious collectibles hidden within.",
+			"genres": "Platform",
+			"platform": "Nintendo Switch"
+		},
+		{
+			"id": 10,
+			"name": "Mario Kart 8 Deluxe",
+			"genres": "Racing",
+			"platform": "Nintendo Switch"
+		}
+	]
+}
