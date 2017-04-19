@@ -4,37 +4,37 @@
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1"
-    p1:background="#DBFCFF">
-  <ImageView
-      p1:src="@drawable/logo"
-      p1:layout_width="wrap_content"
-      p1:layout_height="157.5dp"
-      p1:id="@+id/imageView1"
-      p1:layout_gravity="center"
-      p1:paddingBottom="10dp"
-      p1:paddingTop="10dp"
-      p1:layout_marginTop="20dp"
-      p1:layout_marginBottom="20dp" />
-  <TextView
-      p1:text="Welcome to your Video Game Suggestion App"
-      p1:layout_width="match_parent"
-      p1:layout_height="wrap_content"
-      p1:id="@+id/textView1"
-      p1:textSize="14dp"
-      p1:textColor="#CC4B09"
-      p1:gravity="center" />
-  <Button
-      p1:text="Tap to Enter"
-      p1:layout_width="match_parent"
-      p1:layout_height="wrap_content"
-      p1:id="@+id/btnEnter"
-      p1:gravity="center"
-      p1:layout_marginLeft="25dp"
-      p1:layout_marginRight="25dp"
-      p1:background="#127C22"
-      p1:textColor="#DBFCFF"
-      p1:textSize="14dp"
-      p1:layout_marginTop="25dp"
-      p1:layout_marginBottom="25dp"
-      p1:layout_gravity="bottom" />
+    p1:background="#69533A">
+    <ImageView
+        p1:src="@drawable/logo"
+        p1:layout_width="wrap_content"
+        p1:layout_height="157.5dp"
+        p1:id="@+id/imageView1"
+        p1:layout_gravity="center"
+        p1:paddingBottom="10dp"
+        p1:paddingTop="10dp"
+        p1:layout_marginTop="20dp"
+        p1:layout_marginBottom="20dp" />
+    <TextView
+        p1:text="Welcome to your Video Game Suggestion App"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:textSize="25dp"
+        p1:textColor="#140D05"
+        p1:gravity="center" />
+    <Button
+        p1:text="Tap to Enter"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/btnEnter"
+        p1:gravity="center"
+        p1:layout_marginLeft="25dp"
+        p1:layout_marginRight="25dp"
+        p1:background="#140D05"
+        p1:textColor="#FF8800"
+        p1:textSize="20dp"
+        p1:layout_marginTop="25dp"
+        p1:layout_marginBottom="25dp"
+        p1:layout_gravity="bottom" />
 </LinearLayout>

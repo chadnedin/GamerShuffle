@@ -60,15 +60,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameDetailActivity.cs" />
-    <Compile Include="GameListActivity.cs" />
-    <Compile Include="GameListViewAdapter.cs" />
-    <Compile Include="Games.cs" />
-    <Compile Include="GameService.cs" />
+    <Compile Include="GamesNintendoSwitch.cs" />
+    <Compile Include="GamesPs4.cs" />
+    <Compile Include="GamesXboxOne.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="nintendoSwitchActivity.cs" />
+    <Compile Include="ps4Activity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="searchActivity.cs" />
+    <Compile Include="xbox1Activity.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\VT323-Regular.ttf" />

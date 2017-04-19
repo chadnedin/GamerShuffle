@@ -1,0 +1,74 @@
+{ "gamesXboxOne": [
+    {
+        "id": 1,
+        "name": "Grand Theft Auto V",
+        "summary": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
+        "genres": "Shooter",
+        "platform": "Xbox One"
+            
+        
+    },
+    {
+        "id": 2,
+        "name": "ARK: Survival Evolved",
+        "summary": "ARK: Survival Evolved takes on the survival genre with a unique blend of emergent multiplayer cooperation and competition. Players awake naked and starving on the beach of a mysterious island among a herd of other confused humans. On ARK, they must then hunt, harvest, craft, research technology, and build shelters to protect against scorching days, freezing nights, volatile weather systems, dangerous wildlife, and potential enemies.  \n  \nUse cunning strategy and tactics to tame and ride the many dinosaurs and other primeval creatures roaming the dynamic, persistent ecosystems across land, sea, air, and even underground. Build your character’s strengths and gain items, skills, and pet creatures using in-depth role-playing systems. Start a tribe with hundreds of other players to survive and dominate competing tribes...and ultimately discover the ARK’s true purpose.",
+        "genres": "Shotter",
+        "platform": "Xbox One"
+        
+    },
+    {
+        "id": 3,
+        "name": "Earthlock: Festival of Magic",
+        "summary": "An original turn-based role-playing game set in a world of machines and magic, a world that stopped spinning thousands of years ago. Rich, non-linear story Turn-based combat (No Active Time Battle). Combat pairs (Allows more variations to your battle team). Grow your own ammunition (Organic crafting). Build and improve your home base. Environmental Puzzles Gorgeous overworld with a retro feel. No random encounters (Monsters visible at all times) .Play as Male or Female protagonist (You can switch at any time)",
+        "genres": "Role-playing (RPG)",
+        "platform": "Xbox One"
+    },
+    {
+        "id": 4,
+        "name": "Farming Simulator 17",
+        "summary": "Farming Simulator 17 invites you into the challenging world of a modern day farmer. Take on all the challenges of farming life, including animal husbandry, crops, sales, and woodcutting. You decide how you want to manage and grow your farm in a huge, open world!",
+        "genres": "Simulator",
+        "platform": "Xbox One"
+    },
+    {
+        "id": 5,
+        "name": "Mass Effect: Andromeda",
+        "summary": "A new adventure awaits in the Mass Effect universe. With stunning visuals and a new galaxy to discover, BioWare delivers the next generation of space exploration.  \n  \nCommander Shepard's story may be over, but there are many more stories to tell in the Mass Effect universe. Mass Effect Andromeda will be set in a new galaxy, with new characters, new quests and a whole load of new consequence-laden decisions to make.",
+        "genres":  "Shooter",
+        "platform": "Xbox One"
+    },
+    {
+        "id": 6,
+        "name": "Ashen",
+        "genres": "Role-playing (RPG)",
+		 "platform": "Xbox One"
+    },
+    {
+        "id": 7,
+        "name": "Pro Evolution Soccer 2017",
+        "summary": "Pro Evolution Soccer 2017 is a sports video game developed by PES Productions and published by Konami for Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360 and Xbox One. The game is the 16th installment in the Pro Evolution Soccer series.",
+        "genres": "Simulator",
+		"platform": "Xbox One"
+    },
+    {
+        "id": 8,
+        "name": "Plants vs Zombies: Garden Warfare 2",
+        "summary": "The battle for suburbia grows to crazy new heights in Plants vs. Zombies Garden Warfare 2! In this hilarious, action-packed shooter, zombie leader Dr. Zomboss has strengthened his horde and rebuilt suburbia as a zombie utopia. But hope remains, because for the first time the plants are taking the offensive in an all-out attack to reclaim their turf. Play as the plants in the all-new 24-player Herbal Assault mode, or choose your side in 4-player co-op or Solo Play!",
+        "genres": "Shooter",
+         "platform": "Xbox One"
+    },
+    {
+        "id": 9,
+        "name": "Call of Duty: Black Ops III",
+        "summary": "Call of Duty: Black Ops 3 deploys players into a dark, twisted future where a new breed of Black Ops soldier emerges and the lines are blurred between our own humanity and the technology we created to stay ahead, in a world where cutting-edge military robotics define warfare. With three unique game modes: Campaign, Multiplayer and Zombies, providing fans with the deepest and most ambitious Call of Duty ever.",
+        "genres": "Shooter",
+        "platform": "Xbox One"
+    },
+    {
+        "id": 10,
+        "name": "Tom Clancy's Ghost Recon: Wildlands",
+        "summary": "Bolivia, a few years from now: this beautiful South American country has become the largest cocaine producer in the world. The influential and vicious Santa Blanca drug cartel has turned the country into a narco-state, leading to lawlessness, fear, injustice, and violence. The cartel is on track to becoming a major underworld power and global threat.   \n  \nAn all-out war is not the answer. A surgical, stealthy, lethal approach is the only way to stop the disease at its source. The Ghosts, an elite US Special Forces team, are sent behind enemy lines to wreak havoc, destabilize, and eventually break the alliance between the cartel and the corrupted government.   \n  \nFacing an almighty enemy in a massive and hostile environment, the Ghosts will need to make critical moral choices and engage in tough battles to complete their mission – their grittiest and most dangerous operation to date.",
+        "genres": "Shooter",
+		 "platform": "Xbox One"
+    }
+]}

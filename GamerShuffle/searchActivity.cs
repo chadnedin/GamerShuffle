@@ -19,39 +19,33 @@ namespace GamerShuffle
     [Activity(Label = "searchActivity")]
     public class searchActivity : Activity
     {
-        private static string PART1 =
-                "https-internet-game-database-v1.p.mashape.com/games/?fields=name,genres,summary,release_dates.platform&filter[release_dates.platform][eq]={0}&order=popularity";
+      
 
-        public string platformValue;
-        public string btnEnter = "48";
-        public string btnXbox = "49";
-        public string btnNintendo = "130";
+        //private void Button_OnClicked(object sender, EventArgs e)
+        //{
+        //    PART1 = string.Format(PART1, (sender as Button).Text);
+        //    var intent = new Intent(this, typeof(GameListActivity));
+        //    intent.PutExtra("URL", PART1);
+        //}
 
-        private void Button_OnClicked(object sender, EventArgs e)
+        
+        protected override void OnCreate(Bundle bundle)
         {
-            PART1 = string.Format(PART1, (sender as Button).Text);
-            var intent = new Intent(this, typeof(GameListActivity));
-            intent.PutExtra("URL", PART1);
-        }
-
-           
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(bundle);
             SetContentView(Resource.Layout.searchScreen);
             // Create your application here
 
             var txtView = FindViewById<TextView>(Resource.Id.textView1);
             var btnps4 = FindViewById<Button>(Resource.Id.btnPs4);
-            var btnxbox = FindViewById<Button>(Resource.Id.btnXbox);
-            var btnnintendo = FindViewById<Button>(Resource.Id.btnNintendo);
+            var btnxbox1 = FindViewById<Button>(Resource.Id.btnXbox1);
+            var btnnintendoSwitch = FindViewById<Button>(Resource.Id.btnNintendoSwitch);
             //var spinnertxt = FindViewById<Spinner>(Resource.Id.spinner);
 
             Typeface tf = Typeface.CreateFromAsset(Assets, "VT323-Regular.ttf");
             txtView.SetTypeface(tf, TypefaceStyle.Normal);
             btnps4.SetTypeface(tf, TypefaceStyle.Bold);
-            btnxbox.SetTypeface(tf, TypefaceStyle.Bold);
-            btnnintendo.SetTypeface(tf, TypefaceStyle.Bold);
+            btnxbox1.SetTypeface(tf, TypefaceStyle.Bold);
+            btnnintendoSwitch.SetTypeface(tf, TypefaceStyle.Bold);
             Console.Out.WriteLine("Made it passed the declare");
 
             //spinnertxt.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
@@ -61,8 +55,30 @@ namespace GamerShuffle
             //Console.Out.WriteLine("got to this point 1212123");
             //adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             //spinnertxt.Adapter = adapter;
+
+            btnps4.Click += ps4_Click;
+            btnxbox1.Click += xbox1_Click;
+            btnnintendoSwitch.Click += nintendoSwitch_Click;
            
         }
+
+        private void ps4_Click(object sender, EventArgs e)
+        {
+            Toast.MakeText(this, "Getting your Ps4 Game list", ToastLength.Short).Show();
+            StartActivity(typeof(GameListActivity));
+        }
+        private void xbox1_Click(object sender, EventArgs e)
+        {
+            Toast.MakeText(this, "Getting your Xbox One Game list", ToastLength.Short).Show();
+            StartActivity(typeof(xbox1Activity));
+        }
+
+        private void nintendoSwitch_Click(object sender, EventArgs e)
+        {
+            Toast.MakeText(this, "Getting your Nintendo Switch Game list", ToastLength.Short).Show();
+            StartActivity(typeof(nintendoSwitchActivity));
+        }
+
 
         //private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         //{
@@ -73,7 +89,7 @@ namespace GamerShuffle
         //    switch (e.Position)
         //    {
         //        case 0:
-                    
+
         //            Console.Out.WriteLine("Platform Selection");
         //            break;
         //        case 1:
