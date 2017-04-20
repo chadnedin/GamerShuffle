@@ -23,7 +23,7 @@ namespace GamerShuffle
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.searchScreen);
+            SetContentView(Resource.Layout.retroSearch);
             // Create your application here
 
             var txtView = FindViewById<TextView>(Resource.Id.textView1);

@@ -23,6 +23,6 @@ namespace GamerShuffle
 
     public class RootObject4
     {
-        public List<GamesCommodoreVIC2> gamesCommodore64 { get; set; }
+        public List<GamesCommodoreVIC2> gamesCommodoreVIC2 { get; set; }
     }
 }

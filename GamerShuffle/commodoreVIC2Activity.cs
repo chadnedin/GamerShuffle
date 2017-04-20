@@ -18,6 +18,7 @@ namespace GamerShuffle
     [Activity(Label = "commodor64Activity")]
     public class commodoreVIC2Activity : Activity
     {
+
         private ListView gameListView;
         private List<string> gameList;
         public const string API = "https://chadnedin.github.io/GamerShuffle/gamesCommodoreVIC2.json";
@@ -35,9 +36,9 @@ namespace GamerShuffle
             gameList = new List<string>();
 
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 10; i++)
             {
-                gameList.Add("Name: " + r.gamesCommodore64[i].name + "\n\nGenre: " + r.gamesCommodore64[i].genres + "\n\nPlatform: " + r.gamesCommodore64[i].platform + "\n\nSummary: " + r.gamesCommodore64[i].summary + "\n\n\n");
+                gameList.Add("Name: " + r.gamesCommodoreVIC2[i].name + "\n\nGenre: " + r.gamesCommodoreVIC2[i].genres + "\n\nPlatform: " + r.gamesCommodoreVIC2[i].platform + "\n\nSummary: " + r.gamesCommodoreVIC2[i].summary + "\n\n\n");
             }
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, gameList);
             gameListView.Adapter = adapter;
