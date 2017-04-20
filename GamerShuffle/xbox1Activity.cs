@@ -23,6 +23,7 @@ namespace GamerShuffle
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(savedInstanceState);
             var json = new WebClient().DownloadString(API);
             SetContentView(Resource.Layout.GameList);
@@ -31,9 +32,7 @@ namespace GamerShuffle
 
             gameListView = FindViewById<ListView>(Resource.Id.gameListView);
             gameList = new List<string>();
-            //gameList.Add("Name: " + r.gamesPs4[1].name);
-            //gameList.Add("Item 1 \n somestuff");
-            //gameList.Add("Item 2 \n somestuff");
+            
 
             for (int i = 0; i < 10; i++)
             {
