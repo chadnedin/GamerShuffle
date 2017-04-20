@@ -24,18 +24,24 @@ namespace GamerShuffle
              SetContentView (Resource.Layout.Main);
             var txtView = FindViewById<TextView>(Resource.Id.textView1);
             var btnText = FindViewById<Button>(Resource.Id.btnEnter);
-         
+         var btnText2 = FindViewById<Button>(Resource.Id.btnEnter2);
             Typeface tf = Typeface.CreateFromAsset(Assets, "VT323-Regular.ttf");
             txtView.SetTypeface(tf, TypefaceStyle.Normal);
             btnText.SetTypeface(tf, TypefaceStyle.Bold);
-
+            btnText2.SetTypeface(tf, TypefaceStyle.Bold);
             btnText.Click += delegate
 
             {
                 StartActivity(typeof(searchActivity));
                
             };
-            
+            btnText2.Click += delegate
+
+            {
+                StartActivity(typeof(retroActivity));
+
+            };
+
         }
 
       

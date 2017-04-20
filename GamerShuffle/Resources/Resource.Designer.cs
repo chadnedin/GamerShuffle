@@ -94,17 +94,23 @@ namespace GamerShuffle
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f06000e
+			public const int btnCommodoreVIC2 = 2131099662;
+			
 			// aapt resource value: 0x7f06000c
 			public const int btnEnter = 2131099660;
 			
-			// aapt resource value: 0x7f06000f
-			public const int btnNintendoSwitch = 2131099663;
-			
 			// aapt resource value: 0x7f06000d
-			public const int btnPs4 = 2131099661;
+			public const int btnEnter2 = 2131099661;
 			
-			// aapt resource value: 0x7f06000e
-			public const int btnXbox1 = 2131099662;
+			// aapt resource value: 0x7f060011
+			public const int btnNintendoSwitch = 2131099665;
+			
+			// aapt resource value: 0x7f06000f
+			public const int btnPs4 = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int btnXbox1 = 2131099664;
 			
 			// aapt resource value: 0x7f060006
 			public const int gameListView = 2131099654;
@@ -168,7 +174,10 @@ namespace GamerShuffle
 			public const int Main = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int searchScreen = 2130903044;
+			public const int retroSearch = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int searchScreen = 2130903045;
 			
 			static Layout()
 			{

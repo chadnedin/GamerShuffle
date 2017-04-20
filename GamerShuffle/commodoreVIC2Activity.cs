@@ -2,25 +2,25 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
-using System.Net;
 using Android.Graphics;
+using System.Net;
+using Newtonsoft.Json;
 
 namespace GamerShuffle
 {
-    [Activity(Label = "GameListActivity")]
-    public class GameListActivity : Activity
+    [Activity(Label = "commodor64Activity")]
+    public class commodoreVIC2Activity : Activity
     {
         private ListView gameListView;
         private List<string> gameList;
-        public const string API = "https://chadnedin.github.io/GamerShuffle/gamesPs4.json";
+        public const string API = "https://chadnedin.github.io/GamerShuffle/gamesCommodoreVIC2.json";
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,16 +28,16 @@ namespace GamerShuffle
             base.OnCreate(savedInstanceState);
             var json = new WebClient().DownloadString(API);
             SetContentView(Resource.Layout.GameList);
-            RootObject r = JsonConvert.DeserializeObject<RootObject>(json);
+            RootObject4 r = JsonConvert.DeserializeObject<RootObject4>(json);
             Typeface tf = Typeface.CreateFromAsset(Assets, "VT323-Regular.ttf");
-            
+
             gameListView = FindViewById<ListView>(Resource.Id.gameListView);
             gameList = new List<string>();
-            
+
 
             for (int i = 0; i < 9; i++)
             {
-                gameList.Add("Name: " + r.gamesPs4[i].name + "\n\nGenre: " + r.gamesPs4[i].genres + "\n\nPlatform: " + r.gamesPs4[i].platform + "\n\nSummary: " + r.gamesPs4[i].summary+"\n\n\n");
+                gameList.Add("Name: " + r.gamesCommodore64[i].name + "\n\nGenre: " + r.gamesCommodore64[i].genres + "\n\nPlatform: " + r.gamesCommodore64[i].platform + "\n\nSummary: " + r.gamesCommodore64[i].summary + "\n\n\n");
             }
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, gameList);
             gameListView.Adapter = adapter;

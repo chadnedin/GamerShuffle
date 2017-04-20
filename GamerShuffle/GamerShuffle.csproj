@@ -60,6 +60,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="commodoreVIC2Activity.cs" />
+    <Compile Include="GamesCommodoreVIC2.cs" />
     <Compile Include="GamesNintendoSwitch.cs" />
     <Compile Include="GamesPs4.cs" />
     <Compile Include="GamesXboxOne.cs" />
@@ -68,6 +70,7 @@
     <Compile Include="ps4Activity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="retroActivity.cs" />
     <Compile Include="searchActivity.cs" />
     <Compile Include="xbox1Activity.cs" />
   </ItemGroup>
@@ -87,6 +90,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\GameDetail.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\retroSearch.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
