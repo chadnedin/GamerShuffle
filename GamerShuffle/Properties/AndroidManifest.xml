@@ -3,5 +3,5 @@
 	<uses-sdk android:minSdkVersion="16" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="GamerShuffle"></application>
+	<application android:label="GamerShuffle" android:debuggable="false"></application>
 </manifest>
