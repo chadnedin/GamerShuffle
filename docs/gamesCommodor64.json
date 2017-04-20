@@ -1,0 +1,70 @@
+{ "gamesCommodore64":[
+    {
+        "id": 8197,
+        "name": "Tetris",
+        "summary": "Tetris is an electronic puzzle game that was created by Alexey Pajitnov in 1984, while working in the USSR as a computer programmer. Pajitnov often programmed games to test new equipment using simple tasks, and in his spare time, developed a computer game inspired by his favorite puzzle board game Pentominos. The objective of Pentominos was to fit 12 different geometric-shaped pieces formed out of five squares into a box.\n\nPajitnov’s vision was to create an electronic game where players arranged puzzle pieces in real time by having them “fall” faster and faster from the top of the screen. Pajitnov designed the game using seven distinctive playing pieces made from four squares. He called it Tetris, after “tetra,” the Greek word for four, and tennis, his favorite sport. After giving the game to his colleagues, it became an instant, hugely addictive hit, and shortly thereafter spread like wildfire throughout the Soviet Bloc’s computer literate.  His subsequent friendship with game designer, Henk Rogers, now Blue Planet Software Chairman and Managing Director of The Tetris Company, brought the Tetris game out of the Soviet Union to become one of the most widely played electronic games of all time.",
+        "genres": "Puzzle",
+        "platform": "Atari 2600"
+    },
+    {
+        "id": 2750,
+        "name": "Pac-Man",
+        "summary": "Pac-Man is an arcade game developed by Namco and first released in Japan on May 22, 1980. it is considered one of the classics of the medium, virtually synonymous with video games, and an icon of 1980s popular culture. The player controls Pac-Man through a maze, eating pac-dots (also called pellets or just dots). When all pac-dots are eaten, Pac-Man is taken to the next stage. Four enemies (Blinky, Pinky, Inky and Clyde) roam the maze, trying to catch Pac-Man. If an enemy touches Pac-Man, a life is lost and the Pac-Man itself withers and dies. When all lives have been lost, the game ends. Near the corners of the maze are four larger, flashing dots known as power pellets that provide Pac-Man with the temporary ability to eat the enemies. The enemies turn deep blue, reverse direction and usually move more slowly. When an enemy is eaten, its eyes remain and return to the center box where it is regenerated in its normal color. Blue enemies flash white to signal that they are about to become dangerous again and the length of time for which the enemies remain vulnerable varies from one stage to the next, generally becoming shorter as the game progresses.",
+        "genres": "Arcade",
+        "platform": "Atari 2600"
+        
+    },
+    {
+        "id": 7452,
+        "name": "Ms. Pac-Man",
+        "genres":  "Arcade",
+        "platform": "Atari 2600"
+        
+    },
+    {
+        "id": 6094,
+        "name": "Choplifter",
+        "genres": "Shooter",
+       "platform": "Atari 2600"
+    },
+    {
+        "id": 4603,
+        "name": "Lode Runner",
+        "summary": "Lode Runner is a 1983 puzzle video game, first published by Brøderbund. It is one of the first games to include a level editor, a feature that allows players to create their own levels for the game. This feature bolstered the game's popularity, as magazines such as Computer Gaming World held contests to see who could build the best level.",
+        "genres": "Platform",
+        "platform": "Atari 2600"
+    },
+    {
+        "id": 18512,
+        "name": "Pirate Adventure",
+        "summary": "Your goal in this text adventure is to find a pirate treasure using two word commands.",
+        "genres":  "Puzzle",
+         "platform": "Atari 2600"
+        
+    },
+    {
+        "id": 22729,
+        "name": "Scorpion",
+        "genres": "Shooter",
+        "platform": "Atari 2600"
+    },
+    {
+        "id": 24986,
+        "name": "Paratroopers",
+        "genres": "Shooter",
+        "platform": "Atari 2600"
+    },
+    {
+        "id": 24849,
+        "name": "Tank Arcade",
+        "genres": "Shooter",
+         "platform": "Atari 2600"
+    },
+    {
+        "id": 24705,
+        "name": "Laser Zone",
+        "genres": "Shooter",
+        "platform": "Atari 2600"
+        
+    }
+]}
