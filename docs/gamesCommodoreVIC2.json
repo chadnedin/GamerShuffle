@@ -17,6 +17,7 @@
     {
         "id": 3,
         "name": "Ms. Pac-Man",
+        "summary": "Ms. Pac-Man is an arcade video game from the Golden Age. It was produced by Illinois-based Midway Manufacturing corporation, the North American publisher of Pac-Man. Ms. Pac-Man was released in North America in July 1981,[1] and is one of the most popular arcade video games of all time. This popularity led to its adoption as an official title by Namco, the creator of Pac-Man, which was released in the United States in late 1980. Ms Pac-Man introduced a female protagonist, new maze designs, and several other improved gameplay changes over the original Pac-Man. Ms. Pac-Man became the most successful American-produced arcade game, selling 115,000 arcade cabinets",
         "genres":  "Arcade",
         "platform":  "Commodore VIC-20"
         
@@ -24,6 +25,7 @@
     {
         "id": 4,
         "name": "Choplifter",
+        "summary": "In Choplifter, the player assumes the role of a combat helicopter pilot. The player attempts to save hostages being held in prisoner of war camps in territory ruled by the evil Bungeling Empire. The player must collect the hostages and transport them safely to the nearby friendly base, all the while fighting off hostile tanks and other enemy combatants.",
         "genres": "Shooter",
        "platform":  "Commodore VIC-20"
     },
@@ -45,12 +47,14 @@
     {
         "id": 7,
         "name": "Scorpion",
+        "summary": "If you're sick of escorting frogs across the street, you can now shoot them and feed them to your family. Scorpion is an extremely fast-moving action/maze game. With eight enemies, you don't have to look far for something to kill. The maze scrolls all four ways and the radar scanner tells you where you are. Three difficulty settings, 32 levels.",
         "genres": "Shooter",
         "platform":  "Commodore VIC-20"
     },
     {
         "id": 8,
         "name": "Paratroopers",
+        "summary": "The player controls a gun turret at the bottom of the screen. The turret can swivel to cover a large area of the screen, but cannot move from its base. Helicopters fly across the screen at varying heights, dropping paratroopers. The gun may fire multiple shots at once, and the shots may destroy helicopters or shoot paratroopers. Paratroopers may be disintegrated by a direct hit, or their parachutes may be shot, in which case they will plummet to earth (splattering and dying, killing any paratrooper onto whom they fall). Periodically, jets may fly by and drop bombs; the jets and bombs may be shot as well.",
         "genres": "Shooter",
         "platform":  "Commodore VIC-20"
     },
@@ -63,6 +67,7 @@
     {
         "id": 10,
         "name": "Laser Zone",
+        "summary": "Shooter in which the player controls two guns on orthogonal axes.",
         "genres": "Shooter",
         "platform":  "Commodore VIC-20"
         
